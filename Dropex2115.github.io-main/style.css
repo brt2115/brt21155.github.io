@@ -1,0 +1,64 @@
+﻿body, html {
+    background-image: url("tlo-do-strony-internetowej.jpg");
+    background-repeat: repeat;
+    width: 99.7%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    font-family: zillaslab,palatino,"Palatino Linotype",serif;
+}
+
+.baner {
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 24px;
+    border-width: 6px;
+    background: linear-gradient(to left top, white, black)
+}
+
+.top_panel {
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+    border-width: 12px;
+    font-size: 3vh;
+    color: antiquewhite;
+    text-align: center;
+    font-size-adjust: inherit;
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    padding: 12px;
+}
+
+.mid_panel {
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    font-family: zillaslab,palatino,"Palatino Linotype",serif;
+    border: solid;
+    border-color: black;
+    border-radius: 40px;
+    background-color: grey;
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    color: antiquewhite;
+    padding: 12px;
+}
+
+#p {
+    float: left;
+}
+
+#img {
+    margin: auto;
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+}
